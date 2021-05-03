@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#WelcomeBanner {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(1, 116, 30);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 12px 6px rgba(36, 36, 36, 0.26);
+}
+
+#GameWrapper {
+    text-align: center;
+    margin: 2rem;
+}
+
+#HeaderTxt {
+    text-align: center;
+    margin: 1rem;
+}
+
+#RestartBtn {
+    border: none;
+    padding: 0.8rem;
+    background-color: rgb(1, 116, 30);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#GameBoard {
+    box-shadow: 0 0 12px 6px rgba(19, 19, 19, 0.26);
+}
