@@ -140,9 +140,9 @@ function IsGameOver() {
 
             var gradient = ctx.createLinearGradient(0, 0, gameBoard.width, 0);
 
-            gradient.addColorStop('0', 'magenta');
-            gradient.addColorStop('0.5', 'blue');
-            gradient.addColorStop('1.0', 'red');
+            gradient.addColorStop('0', 'green');
+            gradient.addColorStop('0.5', 'yellowgreen');
+            gradient.addColorStop('1.0', 'orange');
 
             ctx.fillStyle = gradient;
 

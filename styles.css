@@ -4,16 +4,29 @@
 }
 
 #WelcomeBanner {
-    padding: 2rem;
-    text-align: center;
+    justify-content: center;
     background-color: rgb(1, 116, 30);
     color: rgb(255, 255, 255);
     box-shadow: 0 0 12px 6px rgba(36, 36, 36, 0.26);
+    padding: 2rem;
+    display: flex;
 }
 
 #GameWrapper {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 2rem;
+}
+
+#TopLogo {
+    width: 60px;
+    height: auto;
+}
+
+#TopTxt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: .5rem;
+    padding-left: 1rem;
 }
 
 #HeaderTxt {
@@ -23,6 +36,7 @@
 
 #RestartBtn {
     border: none;
+    border-radius: 1rem;
     padding: 0.8rem;
     background-color: rgb(1, 116, 30);
     color: rgb(255, 255, 255);
